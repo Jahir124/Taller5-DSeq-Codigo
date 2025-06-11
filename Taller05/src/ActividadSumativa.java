@@ -17,7 +17,4 @@ public abstract class ActividadSumativa {
         this.id=id;
 
     }
-    
-    
-    
 }
