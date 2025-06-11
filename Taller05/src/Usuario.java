@@ -16,10 +16,12 @@ public class Usuario {
     }
 
     protected boolean login(){
-
+        //LOGICA
+        return false;
     }
 
     protected boolean logOut(){
-
+        //LOGICA
+        return false;
     }
 }
