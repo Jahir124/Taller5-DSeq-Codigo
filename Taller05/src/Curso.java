@@ -22,19 +22,19 @@ public class Curso {
         estudiantesInscritos.add(estudiante);
 
     }
-        public void addEstudiantesEnEsperaDeInscripcion(Estudiante e2Estudiante){
-            estudiantesEnEsperaDeInscripcion.add(e2Estudiante);
+    public void addEstudiantesEnEsperaDeInscripcion(Estudiante e2Estudiante){
+        estudiantesEnEsperaDeInscripcion.add(e2Estudiante);
     }
     
-        public void addactividadesSumativas(ActividadSumativa act){
-            actividadesSumativas.add(act);
+    public void addactividadesSumativas(ActividadSumativa act){
+        actividadesSumativas.add(act);
     }
     
-        public void addForos(Foro foro){
-            foros.add(foro);
+    public void addForos(Foro foro){
+        foros.add(foro);
     }
 
-        public void setProfResponsable(Profesor responsable){
-            this.responsable=responsable;
+    public void setProfResponsable(Profesor responsable){
+        this.responsable=responsable;
     }
 }
