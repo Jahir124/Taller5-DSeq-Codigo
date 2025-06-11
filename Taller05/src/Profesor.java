@@ -1,4 +1,10 @@
+import java.util.Collection;
+import java.util.TreeSet;
+
 public class Profesor extends PersonalAcademico{
+
+    @SuppressWarnings("rawtypes")
+    private Collection cursosACargo = new TreeSet<>();
 
     public Profesor(String usuario, String contraseña, String nombre, String apellido) {
             super(usuario, contraseña, nombre, apellido);
