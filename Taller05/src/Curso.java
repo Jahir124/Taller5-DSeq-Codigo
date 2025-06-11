@@ -16,8 +16,25 @@ public class Curso {
         this.id=id;
         this.nombre=nombre;
         this.estadoDisponible=estadoDisponible;
+    }
+
+    public void addEstudiantesInscritos(Estudiante estudiante){
+        estudiantesInscritos.add(estudiante);
 
     }
+        public void addEstudiantesEnEsperaDeInscripcion(Estudiante e2Estudiante){
+            estudiantesEnEsperaDeInscripcion.add(e2Estudiante);
+    }
     
+        public void addactividadesSumativas(ActividadSumativa act){
+            actividadesSumativas.add(act);
+    }
     
+        public void addForos(Foro foro){
+            foros.add(foro);
+    }
+
+        public void setProfResponsable(Profesor responsable){
+            this.responsable=responsable;
+    }
 }
