@@ -1,4 +1,9 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Profesor extends PersonalAcademico{
+
+    private List<Curso> cursosACargo = new ArrayList();
 
     public Profesor(String usuario, String contraseña, String nombre, String apellido) {
             super(usuario, contraseña, nombre, apellido);

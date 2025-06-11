@@ -12,4 +12,5 @@ public class Incidente {
     protected String tipo;
 
     protected PersonalAcademico beneficiario;
+    private Usuario responsable;
 }
